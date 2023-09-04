@@ -42,7 +42,7 @@ public class DocumentController {
     }
 
     // Edit a document
-    // param: @PathVariable Long id, @RequestBody DocumentReqeustDto requestDto
+    // param: @PathVariable Long id, @RequestBody DocumentRequestDto requestDto
     // return: DocumentResponseDto responseDto
     @PutMapping("/post/{id}")
     public DocumentResponseDto updateDocument(@PathVariable Long id, @RequestBody DocumentRequestDto requestDto) {
